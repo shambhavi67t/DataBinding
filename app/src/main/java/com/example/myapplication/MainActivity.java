@@ -27,8 +27,9 @@ ActivityMainBinding activityMainBinding;
 //
 //   3) activityMainBinding=ActivityMainBinding.inflate(getLayoutInflater(),viewgroup,false);
 //
-    activityMainBinding.setVariable(BR.name,"Shambhavi");
-    activityMainBinding.executePendingBindings();
+    activityMainBinding.setName("shambhavi");
+    activityMainBinding.setDataBindingInterface(this);
+
   }
 
   @Override
